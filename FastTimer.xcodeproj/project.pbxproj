@@ -13,6 +13,8 @@
 		4F76C87D28ECEE0700946496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F76C87B28ECEE0700946496 /* Main.storyboard */; };
 		4F76C87F28ECEE0B00946496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F76C87E28ECEE0B00946496 /* Assets.xcassets */; };
 		4F76C88228ECEE0B00946496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F76C88028ECEE0B00946496 /* LaunchScreen.storyboard */; };
+		4F76C88A28ECEE5900946496 /* TimerTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76C88928ECEE5900946496 /* TimerTask.swift */; };
+		4F76C88C28ECEE8400946496 /* TamerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F76C88B28ECEE8400946496 /* TamerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4F76C87E28ECEE0B00946496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F76C88128ECEE0B00946496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F76C88328ECEE0B00946496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F76C88928ECEE5900946496 /* TimerTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTask.swift; sourceTree = "<group>"; };
+		4F76C88B28ECEE8400946496 /* TamerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				4F76C87528ECEE0700946496 /* AppDelegate.swift */,
 				4F76C87728ECEE0700946496 /* SceneDelegate.swift */,
+				4F76C88928ECEE5900946496 /* TimerTask.swift */,
+				4F76C88B28ECEE8400946496 /* TamerTableViewCell.swift */,
 				4F76C87928ECEE0700946496 /* ViewController.swift */,
 				4F76C87B28ECEE0700946496 /* Main.storyboard */,
-				4F76C87E28ECEE0B00946496 /* Assets.xcassets */,
 				4F76C88028ECEE0B00946496 /* LaunchScreen.storyboard */,
+				4F76C87E28ECEE0B00946496 /* Assets.xcassets */,
 				4F76C88328ECEE0B00946496 /* Info.plist */,
 			);
 			path = FastTimer;
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F76C88C28ECEE8400946496 /* TamerTableViewCell.swift in Sources */,
 				4F76C87A28ECEE0700946496 /* ViewController.swift in Sources */,
 				4F76C87628ECEE0700946496 /* AppDelegate.swift in Sources */,
+				4F76C88A28ECEE5900946496 /* TimerTask.swift in Sources */,
 				4F76C87828ECEE0700946496 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
